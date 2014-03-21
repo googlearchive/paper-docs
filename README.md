@@ -1,4 +1,4 @@
-paper-docs
-==========
+polymer-docs
+============
 
-Aggregated documentation for paper-* elements
+No-import component whose documentation (`index.html`) is an aggregation of all Polymer component docs.
