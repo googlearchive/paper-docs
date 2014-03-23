@@ -1,46 +1,59 @@
 <!doctype html>
-
 <html>
-
 <head>
 
-  <title>polymer api</title>
+  <title>Quantum Paper Elements for Polymer: API Reference</title>
 
-  <script src="../platform/platform.js"></script>
+  <script src="../platform-dev/platform.js"></script>
+
+  <link rel="import" href="../paper-doc-viewer/paper-doc-viewer.html">
 
   <style>
 
-    body {
+    html, body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
 
-      font-family: "Helvetica Neue", Roboto, Arial, sans-serif;
-
+    paper-doc-viewer {
+      height: 100vh;
     }
 
   </style>
 
-  <link rel="import" href="../core-doc-viewer/core-doc-viewer.html">
-
 </head>
 
-<body>
+<body unresolved>
 
-  <core-doc-viewer sources='[
+  <paper-doc-viewer sources='[
+    "../core-ajax/core-ajax.html",
+    "../core-ajax/core-xhr.html",
+    "../core-component-page-dev/core-component-page.html",
+    "../core-firebase/core-firebase.html",
+    "../core-icon/core-icon.html",
+    "../core-iconset/core-iconset.html",
+    "../core-layout/core-layout.html",
+    "../core-layout-trbl/core-layout-trbl.html",
+    "../core-media-query/core-media-query.html",
+    "../core-meta/core-meta.html",
+    "../core-selection/core-selection.html",
+    "../core-selector/core-selector.html",
+    "../core-theme-aware/core-theme-aware.html",
 
     "../paper-appbar/paper-appbar.html",
     "../paper-button/paper-button.html",
     "../paper-checkbox/paper-checkbox.html",
+    "../paper-doc-viewer/paper-doc-viewer.html",
     "../paper-drawer-panel/paper-drawer-panel.html",
-    "../paper-elements/paper-elements.html",
+    "../paper-header-panel/paper-header-panel.html",
     "../paper-ink/paper-ink.html",
     "../paper-input/paper-input.html",
     "../paper-progress/paper-progress.html",
     "../paper-radio-button/paper-radio-button.html",
     "../paper-scaffold/paper-scaffold.html",
     "../paper-slider/paper-slider.html",
-    "../paper-toggle-button/paper-toggle-button.html",
-    "../paper-toolbar-panel/paper-toolbar-panel.html"
-
-  ]'></core-doc-viewer>
+    "../paper-toggle-button/paper-toggle-button.html"
+    ]'></paper-doc-viewer>
 
 </body>
 
